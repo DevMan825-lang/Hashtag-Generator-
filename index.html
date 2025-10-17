@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h2>Developed by Gourav Talukdar</h2>
+  <br> 
+    <div class="myContainer">
+        <h1>'#' HashTag Generator</h1>
+        <br><br> 
+        <label for="topic">Enter Topic or Keyword : <br>
+            <input type="text" name="topic" id="topic"/>  
+        </label>
+        <br><br>
+        <label for="formats">Formatting : <br>
+            <select id="list" class="mylist">
+               <option></option>
+                <option value="lowercase" id="lowercase">
+                  Lowercase 
+                </option>
+                <option value="uppercase"id="uppercase">Uppercase</option>
+                 <option value="capitalize" id="capitalize"onclick="myCapital()">Pascalcase</option>
+            </select>
+        </label>
+        <br><br>
+        <label for="num">Generate number of lines : <br>
+            <input type="number" name="num" id="num"/>  
+        </label>
+        <br><br>
+        <label for="lines">Area : <br>
+            <textarea id="lines"></textarea>  
+        </label>
+        <br><br>
+        <button onclick="mybutton()" style="background-color:#86b2f0;">Generate</button><br><br> 
+        <button onclick="myCopy()" style="background-color:#e61774; color:#fff;">Copy</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

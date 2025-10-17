@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:hsl(0,0%,94%);
+    font-family: "Josefin Sans", sans-serif;
+}
+h1{
+  font-size:28px;
+}
+h2{
+  text-align:center;
+  font-variant: small-caps; 
+}
+.myContainer{
+   width:350px;
+   height:600px;
+   background-color:#fff;
+   padding-top:40px;
+   padding-left:28px;
+   border-radius:10px;
+   box-shadow:0 4px 6px 0 rgba(0,0,0,.2), 0 4px 8px 0 rgba(0,0,0,.20);
+}
+input[type="text"]{
+  width:280px;
+  height:40px;
+  border:2px solid black;
+  border-radius:10px;
+  padding-left:12px;
+  border:2px solid pink;
+}
+input[type="text"]:focus:hover{
+  outline:none;
+}
+input[type="number"]{
+  width:280px;
+  height:40px;
+  border:2px solid black;
+  border-radius:10px;
+  padding-left:12px;
+  border:2px solid pink;
+}
+input[type="number"]:focus:hover{
+  outline:none;
+}
+.mylist{
+  width:280px;
+  height:40px;
+  border:2px solid pink;
+  border-radius:10px;
+  padding-left:12px;
+  background: #fff;
+}
+textarea{
+  width:280px;
+  height:100px;
+  border:2px solid black;
+  border-radius:10px;
+ padding-left: 12px; 
+  padding-top: 20px;
+ color:#346beb;
+ text-transform: capitalize; 
+}
+
+textarea:focus{
+  outline: none ;
+}
+button{
+  width:280px;
+  height:32px;
+  border:none;
+  border-radius:4px;
+}
